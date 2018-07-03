@@ -1,0 +1,22 @@
+{
+  "name": "models-dev",
+  "version": "1.0.0",
+  "description": "Get models",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayminpadaria/models-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayminpadaria/models-dev/issues"
+  },
+  "homepage": "https://github.com/jayminpadaria/models-dev#readme",
+  "dependencies": {
+    
+  }
+}
