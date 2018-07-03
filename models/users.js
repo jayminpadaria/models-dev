@@ -33,4 +33,4 @@ var UserSchema = {
     reset_token_timestamp: Date,
     pagination_rows: { type: Number, default: 10 }
 };
-module.exports = mongoose.model('Users');
+module.exports = UserSchema;

@@ -1,3 +1,3 @@
 var CoreSchema = {
 }
-module.exports = mongoose.model('Cores');
+module.exports = CoreSchema;
