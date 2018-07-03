@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var UserSchema = {
+var UserSchema = new mongoose.Schema({
     email: { type: String },
     username: { type: String, required: true, unique: true },
     password: { type: String, required: true },
@@ -32,5 +32,5 @@ var UserSchema = {
     reset_token: String,
     reset_token_timestamp: Date,
     pagination_rows: { type: Number, default: 10 }
-};
+});
 module.exports = UserSchema;
