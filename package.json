@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jayminpadaria/models-dev#readme",
   "dependencies": {
-    
+    "mongoose": "^5.2.0"
   }
 }

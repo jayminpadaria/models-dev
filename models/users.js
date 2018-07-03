@@ -1,3 +1,4 @@
+var mongoose = require('mongoose');
 var UserSchema = {
     email: { type: String },
     username: { type: String, required: true, unique: true },
